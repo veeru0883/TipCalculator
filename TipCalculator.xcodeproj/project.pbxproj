@@ -13,6 +13,7 @@
 		6449FD421AE1EA440074D7A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6449FD411AE1EA440074D7A1 /* Images.xcassets */; };
 		6449FD451AE1EA440074D7A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6449FD431AE1EA440074D7A1 /* LaunchScreen.xib */; };
 		6449FD511AE1EA440074D7A1 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6449FD501AE1EA440074D7A1 /* TipCalculatorTests.swift */; };
+		6449FD5B1AE1FF5A0074D7A1 /* TripCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6449FD5A1AE1FF5A0074D7A1 /* TripCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6449FD4A1AE1EA440074D7A1 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6449FD4F1AE1EA440074D7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6449FD501AE1EA440074D7A1 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		6449FD5A1AE1FF5A0074D7A1 /* TripCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				6449FD3A1AE1EA440074D7A1 /* AppDelegate.swift */,
 				6449FD3C1AE1EA440074D7A1 /* ViewController.swift */,
 				6449FD3E1AE1EA440074D7A1 /* Main.storyboard */,
+				6449FD5A1AE1FF5A0074D7A1 /* TripCalculatorModel.swift */,
 				6449FD411AE1EA440074D7A1 /* Images.xcassets */,
 				6449FD431AE1EA440074D7A1 /* LaunchScreen.xib */,
 				6449FD381AE1EA440074D7A1 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6449FD5B1AE1FF5A0074D7A1 /* TripCalculatorModel.swift in Sources */,
 				6449FD3D1AE1EA440074D7A1 /* ViewController.swift in Sources */,
 				6449FD3B1AE1EA440074D7A1 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				6449FD561AE1EA440074D7A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6449FD571AE1EA440074D7A1 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				6449FD591AE1EA440074D7A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
